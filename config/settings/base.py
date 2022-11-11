@@ -190,5 +190,9 @@ LOGGING = {
             'level': 'INFO',
             'propagate': False,
         },
+        'myapp': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
     }
 }
